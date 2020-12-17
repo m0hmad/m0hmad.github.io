@@ -4,15 +4,37 @@
 <body>
 
   <p></p>
+  <dialog>
+    <p>Моя первая игра, ещё не доделана. Хотя это скорее эксперимент.</p>
+    <p>Созданного мною тут почти ничего, разве что подредактированных</p>
+    <p>пару функции. Планирую в будущем менять по чуть чуть, по мере </p>
+    <p>накоплений знаний и опыта, но могу и забросить. </p>
+    <p>Сюжет простой, нужно просто бегать по локациям и выжить </p>
+    <p>Каждая локация генерируемая случайным образом. При переходи </p>
+    <p>в другую локацию добавляется +5 к количеству здоровья и</p>
+    <p>+1 к максимальному здоровью</p>
+    
+    <button id="close">Закрыть</button>
+  </dialog>
+  <button id="show">RPG My first game</button>
 
-  <script>
+  <script type = text/javascript>
+    var dialog = document.querySelector('dialog');
+    document.querySelector('#show').onclick = function() {
+      dialog.show();
+    };
+    document.querySelector('#close').onclick = function() {
+      dialog.close();
+    };
+    
     var a = document.createElement('a');
-    var linkText = document.createTextNode("my title text");
+    var linkText = document.createTextNode("RPGmfg.apk");
     a.appendChild(linkText);
-    a.title = "my title text";
+    a.title = "RPGmfg.apk";
     a.href = "https://github.com/m0hmad/RPGmfg/releases/download/v1.0-alpha/RPGmfg.apk";
     document.body.appendChild(a);
   </script>
+
   <p></p>
 
 </body>
