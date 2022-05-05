@@ -21,7 +21,7 @@ body{
 }
 
 .block {
-	border: 5px solid ;
+	border: 5px solid grey;
 	max-width: 800px;
 	height: 1500px;
 	margin: 0px auto;
