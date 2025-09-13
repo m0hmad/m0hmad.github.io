@@ -19,7 +19,7 @@ body {
 .code-container {
     width: 1000px;
     height: 930px;
-    background-color: #2d2d2d;
+    background-color: #0a0a0a;
     border-radius: 8px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     overflow: hidden;
@@ -79,4 +79,5 @@ body {
 .keyword { color: #569cd6 !important; }
 .preprocessor { color: #9b9b9b !important; }
 .comment { color: #6a9955 !important; }
+
 
