@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Consolas', 'Monaco', monospace;
+    background-image: url("../img/background.jpg");
     background-color: #3d093d;
     color: #d4d4d4;
     display: flex;
@@ -79,6 +80,7 @@ body {
 .keyword { color: #569cd6 !important; }
 .preprocessor { color: #9b9b9b !important; }
 .comment { color: #6a9955 !important; }
+
 
 
 
